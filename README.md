@@ -1,0 +1,2 @@
+# hsschool
+pet project
