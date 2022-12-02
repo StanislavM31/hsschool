@@ -9,6 +9,16 @@
   color: #001a49;
 }
 
+.benefits .benefits-text, .benefits, .total .wrapper-z {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -109,13 +119,6 @@ header ul li {
 .total .wrapper-z {
   /* width: 100%; */
   width: 1000px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -154,14 +157,31 @@ header ul li {
       -ms-flex-align: center;
           align-items: center;
 }
-.total .wrapper-z .total-score-item h3 {
-  font: 700 60px Montserrat;
-  color: #001a49;
-}
 .total .wrapper-z .total-score-item p {
   font: 700 16px "Mulish";
   color: #4F596A;
 }
 .total .wrapper-z .item-second {
   /* padding: 0 150px; */
+}
+
+h3 {
+  font: 700 24px Montserrat;
+  color: #001a49;
+}
+
+.benefits h2 {
+  font: 700 46px "Mulish";
+  color: #001a49;
+}
+.benefits .logo-oval {
+  width: 20px;
+  height: 20px;
+}
+.benefits .benefits-text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F5F5F5;
+  border-radius: 10px;
 }

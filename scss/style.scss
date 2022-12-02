@@ -4,6 +4,10 @@
   font: 700 16px "Mulish";
   color: #001a49;
 }
+%flex-items-col{
+  display: flex;
+  flex-direction: column;
+}
 
 * {
   margin: 0;
@@ -85,8 +89,7 @@ header {
 .wrapper-z {
     /* width: 100%; */
     width: 1000px;
-    display: flex;
-    flex-direction: column;
+    @extend %flex-items-col;
     justify-content: space-between;
     /* align-items: flex-start; */
     margin-left: -50px;
@@ -111,10 +114,6 @@ header {
       flex-direction: column;
 
       align-items: center;
-      h3 {
-        font: 700 60px Montserrat;
-        color: #001a49;
-      }
       p{
         font: 700 16px "Mulish";
         color: #4F596A;
@@ -123,5 +122,28 @@ header {
     .item-second{
       /* padding: 0 150px; */
     }
-    }
   }
+}
+h3 {
+  font: 700 24px Montserrat;
+  color: #001a49;
+}
+
+.benefits{
+  @extend %flex-items-col;
+  h2{
+    font: 700 46px "Mulish";
+    color: #001a49;
+
+  }
+  .logo-oval{
+    width: 20px;
+    height: 20px;
+  }
+  .benefits-text{
+    @extend %flex-items-col;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 10px;
+  }
+}
