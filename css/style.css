@@ -191,6 +191,7 @@ header ul li {
 h2 {
   font: 700 40px "Montserrat";
   color: #001a49;
+  text-transform: uppercase;
 }
 
 h3 {
