@@ -1,2 +1,2 @@
 # hsschool
-pet project
+https://stanislavm31.github.io/hsschool/
