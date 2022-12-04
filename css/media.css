@@ -1,0 +1,7 @@
+@media (max-width: 1130px) {
+    /* CSS для: ширины >= 1200px */
+    .start-video{
+      position: relative;
+      left: 50px;
+    }
+  }
